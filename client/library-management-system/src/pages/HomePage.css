@@ -1,0 +1,24 @@
+.homepage {
+  background-color: #0d0d0d;
+  min-height: 100vh;
+  padding-top: 60px;     /* 👈 Add this */
+  padding-bottom: 100px;
+  color: #e0e0e0;
+  font-family: monospace;
+}
+
+
+.section {
+  padding: 30px;
+}
+
+.section h3 {
+  color: #00ffd5;
+  margin-bottom: 20px;
+}
+
+.book-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

@@ -1,0 +1,25 @@
+.results-page {
+  padding: 20px;
+  background-color: #0c0c0c;
+  min-height: 100vh;
+  color: #e0e0e0;
+  font-family: monospace;
+}
+
+.results-page h2 {
+  margin-bottom: 20px;
+  color: #00ffd5;
+  font-weight: 600;
+}
+
+.results-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.no-results {
+  color: #888;
+  font-size: 16px;
+  padding-top: 20px;
+}

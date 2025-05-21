@@ -1,0 +1,64 @@
+/* AddBookForm.css */
+
+.add-book-form-container {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #00ffd5; /* Retro neon border */
+  box-shadow: 0 0 20px rgba(0, 255, 213, 0.5); /* Glow effect */
+  z-index: 1001;
+  width: 400px;
+  font-family: monospace;
+  color: #e0e0e0;
+}
+
+.add-book-form h2 {
+  color: #00ffd5;
+  margin-bottom: 20px;
+}
+
+.add-book-form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #00ffd5;
+}
+
+.add-book-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #00ffd5;
+  border-radius: 5px;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  font-family: monospace;
+}
+
+.add-book-form input:focus {
+  outline: none;
+  box-shadow: 0 0 8px #00ffd5;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.btn.save {
+  background-color: #00ffd5;
+  color: #0d0d0d;
+}
+
+.btn.cancel {
+  background-color: #ff4d4d;
+  color: white;
+}

@@ -1,0 +1,45 @@
+.edit-book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+  color: #e0e0e0;
+  font-family: monospace;
+}
+
+.edit-book-form input {
+  padding: 8px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.edit-book-form label {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.edit-form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn.save {
+  background: #00ffd5;
+  color: #000;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn.cancel {
+  background: #444;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
